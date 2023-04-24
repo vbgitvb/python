@@ -7,10 +7,6 @@
 
 # A = 2; B = 3 -> 8 
 
-
-base = int(input('Введите число, которое надо возвести в степень '))
-degree = int(input(f'Введите степень в которую надо возвести число: '))
-
 def exponentiation(number: int, stepen: int):
     if stepen == 0:
         return 1
@@ -20,5 +16,8 @@ def exponentiation(number: int, stepen: int):
         return number * exponentiation(number, stepen - 1)
 
 
+
+base = int(input('Введите число, которое надо возвести в степень '))
+degree = int(input(f'Введите степень в которую надо возвести число: '))
 
 print(f'Число {base} в степени {degree} = {exponentiation(base, degree)}')
