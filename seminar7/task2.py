@@ -17,3 +17,8 @@
 # 4 8 12 16 20 24
 # 5 10 15 20 25 30
 # 6 12 18 24 30 36
+for j in range(1,6+1):
+    for i in range(1,6+1):
+        print(f"{i*j} ", end = " ")
+    print()
+
