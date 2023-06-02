@@ -1,5 +1,4 @@
-#from text import *
-###import text
+import text
 import view
 import model
 
@@ -10,28 +9,26 @@ def start():
         choice_menu = view.select_item()
 
         if choice_menu == 1:
-            model.open(viev.set_filename())
+            model.open_file_pb(view.set_filename())
+            view.print_message(text.open_without_error)
 
         elif choice_menu == 2:
-            model.save(viev.set_filename())
+            model.save(view.set_filename())
 
         elif choice_menu == 3:
             view.print_pb(model.phonebook)            
 
         elif choice_menu == 4:
-            viev.add_contact(model.phonebook)
+            view.add_contact(model.phonebook)
 
         elif choice_menu == 5:
-            if not view.print_message(" menu = 5")
-                break
+            pass
 
         elif choice_menu == 6:
-            if not view.menu6()
-                break
+            view.edit_contact(model.phonebook)
 
         elif choice_menu == 7:
-            if not view.menu7()
-                break
+            view.remove_contact(model.phonebook)
 
         elif choice_menu == 0:
             view.menu_exit()
