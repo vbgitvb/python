@@ -11,5 +11,15 @@
 * предпоследний — командой git reset --mixed и git restore;
 * первый — командой git reset --hard.
 
-----------------------------------
+------------INFO-----------------
 git log - просмотр коммитов
+
+
+----------------------------------
+
+1) git log
+   git diff 038e998652a6df41360d9991ce97cddfa29fa309
+   git diff 621570a5ea1a56729455d22e5a77ac5d9a44a7be
+   git diff 650e0a2852f5f7b4d2a8044d786eed8fc9d8bb94
+
+2) 
