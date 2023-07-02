@@ -11,6 +11,7 @@
 * предпоследний — командой git reset --mixed и git restore;
 * первый — командой git reset --hard.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ------------INFO-----------------
 git log - просмотр коммитов
@@ -24,5 +25,7 @@ git log - просмотр коммитов
    git diff 650e0a2852f5f7b4d2a8044d786eed8fc9d8bb94
 
 2) 
+=======
+>>>>>>> parent of 621570a... git sem: Readme add  info for git log
 =======
 >>>>>>> parent of 621570a... git sem: Readme add  info for git log
